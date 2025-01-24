@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b196eacd06.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html {
+        font-family: Poppins;
+      }
+      body {
+        background-color: #eeece6;
+      }
+      #searchField {
+        background-color: white;
+      }
+      #searchField {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        background: none;
+        box-shadow: none;
+        appearance: none;
+        font: inherit;
+        color: inherit;
+      }
+      input::placeholder {
+        color: gray;
+        text-transform: uppercase;
+        margin-left: 6px;
+      }
+      
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+      }
+      a:hover {
+        color: gray;
+      }
+      .backgroundColor1  {
+        background-color: #ab836a;
+      }
+      .backgroundColor2 {
+        background-color: #685b4d;
+      }
+      .backgroundColor3 {
+        background-color: #5a5136;
+      }
+      .backgroundColor4 {
+        background-color: #a88e7c;
+        border-radius: 34px;
+      }
+      header {
+        display: flex;
+        color: white;
+        gap: 12px;
+        flex-wrap: wrap-reverse;
+      }
+      header section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        border-radius: 34px;
+      }
+      header section div {
+        display: flex;
+        border-radius: 34px;
+        font-size: 18px;
+        gap: 8px;
+      }
+      
+      header section i {
+        font-size: 24px;
+      }
+      header section nav {
+        display: flex;
+        flex-grow: 1;
+      }
+      header section nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+      }
+      header section nav ul li {
+        list-style: none;
+      }
+      .padding30 {
+        padding: 30px;
+      }
+      .grow {
+        flex-grow: 1;
+      }
+      .displayFlex {
+        display: flex;
+      }
+
+      main {
+        margin-top: 12px;
+        gap: 12px;
+        
+        
+      }
+      
+      main section {
+        border: 1px solid black;
+        border-radius: 34px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      main section div h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 46px;
+      }
+      #moto {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 1;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 34px;
+        /*padding: 54px 130px 54px 130px;*/
+      }
+      #leftRow {
+        
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+        padding-left: 12px;
+      }
+      #socials {
+        color: white;
+        border-radius: 2px solid black;
+        font-size: 32px;
+        gap: 12px;
+      }
+      main section div span {
+        font-size: 32px;
+        color: black;
+        font-weight: 700;
+        
+      }
+      main:last-child {
+        flex-shrink: 1;
+      }
+      section > img {
+        border-radius: 34px;
+        max-width: 846px;
+      }
+      #leftLastRow {
+        justify-content: space-around;
+        gap: 12px;
+      }
+      #leftLastRow > div {
+        border-radius: 34px;
+        flex-grow: 1;
+        height: 110px;
+        text-align: center;
+        color: white;
+      }
+      .background2 {
+        background-color: #685b4d;
+      }
+      .background3 {
+        background-color: #5a5136;
+      }
+      .background4 {
+        background-color: #a88e7c;
+      }
+      @media (max-width:600px) {
+        #imageContainer{
+          display: none;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="backgroundColor1 padding30">
+          <i class="fa-solid fa-car"></i>
+          <span>Shareyourcar</span>
+        </div>
+        <div class="backgroundColor2 padding30">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input placeholder="search everything you need" id="searchField" value="" />
+        </div>
+      </section>
+      <section class="backgroundColor2 grow">
+        <nav>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="displayFlex ">
+      <section>
+          <div id="moto" class="backgroundColor3">
+            <h1>Share the road,</h1>
+            <h1>share the ride.</h1>
+          </div>
+          <div id="leftRow" class="displayFlex">
+            <span>
+                Benson, Minnesota
+            </span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Omnis laudantium tenetur
+               eum praesentium eligendi quia.
+            </p>
+            <div id="socials" class="backgroundColor4 padding30 grow displayFlex">
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a> 
+            </div>
+          </div>
+          <div id="leftLastRow" class="displayFlex">
+            <div class="background2">asd</div>
+            <div class="background3">asd</div>
+            <div class="background4">asd</div>
+          </div>
+      </section>
+      <section id="imageContainer">
+        <img src="your-image.png" alt="photo of two men" />
+      </section>
+    </main>
+  </body>
+</html>
