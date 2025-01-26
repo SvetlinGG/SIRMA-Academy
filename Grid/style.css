@@ -84,8 +84,8 @@ nav > ul {
 }
 .products {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(7, auto);
     grid-gap: 10px;
 }
 .item {
@@ -94,8 +94,8 @@ nav > ul {
   }
   
   .item > img {
-    width: 50%;
-    height: 30%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
   
@@ -104,7 +104,7 @@ nav > ul {
     grid-row: 1 / 4;
   }
 .item-3 {
-    grid-column: 1 / 3;
+    grid-column: 3 / 5;
     grid-row: 1 / 5;
 }
 .price {
