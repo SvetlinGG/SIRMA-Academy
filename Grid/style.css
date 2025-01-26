@@ -1,0 +1,15 @@
+html, body {
+    font-family: "Montserrat";
+    padding: 0;
+    margin: 0;
+}
+
+.section-1 {
+    border: 1px solid black;
+    position: relative;
+}
+.navigation-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
