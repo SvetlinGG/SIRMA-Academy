@@ -73,14 +73,16 @@ color: #ffffff;
 font-weight: 700;
 font-family: "Montserrat";
 text-align: center;
- 
+top: 50%;
+left: 60%;
+width: 50%;
+width: 200px;
+transform: translate(-70%, -70%);
     
 }
 h4 {
     position: absolute;
     padding: 20rem;
-    justify-items: center;
-    align-items: center;
     font-size: 48px;
 letter-spacing: 2px;
 line-height: 54px;
@@ -89,7 +91,11 @@ color: #ffffff;
 font-weight: 500;
 font-family: "Montserrat";
 text-align: center;
-    
+top: 50%;
+left: 60rem;
+width: 100%;
+width: 300px; 
+transform: translate(-50%, -50%);
 }
 .span {
     font-weight: 400;
