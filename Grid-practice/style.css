@@ -55,6 +55,7 @@ span{
     
 }
 .image-1 {
+    display: grid;
     height: 600px;
     width: 100%;
     padding-left: 5px;
@@ -63,39 +64,31 @@ span{
 }
 h3 {
     position: absolute;
-    padding: 15rem;
-    color: white;
     font-size: 48px;
-letter-spacing: 2px;
-line-height: 54px;
+letter-spacing: 10px;
+line-height: 70px;
 text-transform: uppercase;
 color: #ffffff;
-font-weight: 700;
+font-weight: 800;
 font-family: "Montserrat";
 text-align: center;
-top: 50%;
-left: 60%;
-width: 50%;
-width: 200px;
-transform: translate(-70%, -70%);
+left: 50rem;
+top: 30%;
     
 }
 h4 {
     position: absolute;
-    padding: 20rem;
     font-size: 48px;
-letter-spacing: 2px;
-line-height: 54px;
-text-transform: uppercase;
-color: #ffffff;
-font-weight: 500;
-font-family: "Montserrat";
-text-align: center;
-top: 50%;
-left: 60rem;
-width: 100%;
-width: 300px; 
-transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    left: 45rem;
+    top: 40%;
+    
 }
 .span {
     font-weight: 400;
