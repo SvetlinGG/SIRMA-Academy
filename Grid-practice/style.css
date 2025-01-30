@@ -93,15 +93,12 @@ h4 {
 .span {
     font-weight: 400;
 }
-section > .cities > h3 {
-    display: grid;
+.cities > h3 {
+    display: flex;
     border: 1px solid red;
-    grid-template-columns: repeat(3, 1fr);
     padding: 10%;
     top: 40rem;
     color: blue;
-    
-    
 }
 
 
