@@ -14,6 +14,10 @@ body {
     margin: 0;
 
 }
+.site-content {
+   width: 1180px; 
+   margin: auto;
+}
 h1 {
     font-family: 'Crimson Text';
     font-size: 2.5rem;
@@ -68,5 +72,14 @@ h1 {
 .content-header-container {
     text-align: center;
     width: 410px;
+}
+.portfolio-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.sub-heading {
+    background-color: #74C69D;
 }
 
