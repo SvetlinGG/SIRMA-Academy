@@ -40,9 +40,11 @@ h1 {
     line-height: 125%;
 }
 
-.header-section {
+.header-section,
+.footer-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 35px 100px 38px;
     background-color: #74C69D;
     margin-bottom: 30px;
@@ -79,7 +81,8 @@ h1 {
     grid-template-columns: 1fr 1fr;
     
 }
-.sub-heading {
-    background-color: #74C69D;
+.social-media {
+    
 }
+
 
