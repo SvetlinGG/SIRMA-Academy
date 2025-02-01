@@ -46,7 +46,8 @@ h1 {
     margin-bottom: 30px;
     
 }
-.header-section-container {
+.header-section-container,
+.footer-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
