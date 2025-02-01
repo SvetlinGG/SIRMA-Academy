@@ -87,6 +87,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 100px;
+    justify-items: center;
 }
 .social-media {
     color: white;
@@ -112,16 +113,27 @@ article img {
     }
     .portfolio-section {
         grid-template-columns: 1fr;
+        row-gap: 55px;
     }
     /* Switch navigation to burger menu */
+    .header-section-container nav {
+        display: none;
+    }
 
     .footer-section-container {
         flex-direction: column;
+        
     }
 }
 @media (max-width: 568px){
+    .site-content {
+        width: 350px;
+    }
     /* Lower article container size */
-    
+    article {
+        width: 335px;
+    }
+
 }
 
 
