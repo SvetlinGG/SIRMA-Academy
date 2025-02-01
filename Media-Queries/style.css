@@ -35,19 +35,21 @@ h1 {
 
 }
 .sub-heading {
-    font-family: 'Work Sans', Arial, sans-serif;
     font-size: 1.25rem;
     line-height: 125%;
 }
 
 .header-section,
 .footer-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 35px 100px 38px;
     background-color: #74C69D;
     margin-bottom: 30px;
+    
+}
+.header-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--secondary-color);
 }
 
@@ -83,11 +85,12 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 82px;
+    margin-bottom: 100px;
 }
 .social-media {
     color: white;
     border: 1px solid black;
 }
+
 
 
