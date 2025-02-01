@@ -55,6 +55,9 @@ h1 {
 .logo {
     font-size: 40px;
 }
+.logo-container {
+    display: flex;
+}
 .nav-container {
     width: 390px;
 }
@@ -70,6 +73,7 @@ h1 {
 .content-header-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 82px;
 }
 .content-header-container {
     text-align: center;
@@ -79,10 +83,11 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    margin-bottom: 82px;
 }
 .social-media {
-    
+    color: white;
+    border: 1px solid black;
 }
 
 
