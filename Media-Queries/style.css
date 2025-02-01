@@ -41,7 +41,7 @@ h1 {
 
 .header-section,
 .footer-section {
-    padding: 35px 100px 38px;
+    padding: 35px 0 38px;
     background-color: #74C69D;
     margin-bottom: 30px;
     
@@ -91,6 +91,37 @@ h1 {
 .social-media {
     color: white;
     border: 1px solid black;
+}
+article img {
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .site-content {
+        width: 900px;
+    }
+}
+@media (max-width: 1024px){
+    .site-content {
+        width: 700px;
+    }
+}
+@media (max-width: 768px){
+    .site-content {
+        width: 500px;
+    }
+    .portfolio-section {
+        grid-template-columns: 1fr;
+    }
+    /* Switch navigation to burger menu */
+
+    .footer-section-container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 568px){
+    /* Lower article container size */
+    
 }
 
 
