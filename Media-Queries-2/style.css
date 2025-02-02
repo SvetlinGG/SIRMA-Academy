@@ -16,13 +16,14 @@ body {
     width: 1180px;
     margin: auto;
 }
-.header-section {
+.header-section,
+.footer-section {
     padding: 35px 0 38px;
     background-color: #74C69D;
     margin-bottom: 30px;
 }
-.header-section-container {
-
+.header-section-container,
+.footer-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +52,6 @@ body {
 display: flex;
 }
 .content-header-section {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     margin-bottom: 82px;
@@ -76,4 +76,8 @@ h1 {
     font-weight: 700px;
     line-height: 125%;
     margin: 16px 0;
+}
+.social-media {
+    border: 1px solid red;
+    
 }
