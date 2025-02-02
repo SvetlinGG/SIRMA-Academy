@@ -15,6 +15,7 @@ body {
 .header-section {
     padding: 35px 0 38px;
     background-color: #74C69D;
+    margin-bottom: 30px;
 }
 .header-section-container {
 
@@ -22,6 +23,10 @@ body {
     justify-content: space-between;
     align-items: center;
     color: var(--secondary-color);
+}
+.sub-heading {
+    font-size: 1.25rem;
+    line-height: 125%;
 }
 .nav-container {
     width: 390px;
