@@ -84,3 +84,8 @@ h1 {
     font-weight: 240px;
     
 }
+.offer-section {
+    width: 100%;
+    display: grid;
+    
+}
