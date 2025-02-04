@@ -141,3 +141,29 @@ button {
     padding: 10px;
     
 }
+.components {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    row-gap: 2px;
+    column-gap: 2px;
+    
+}
+.item-1 {
+    border: 1px solid red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-items: end;
+    align-items: end;
+    
+    
+}
+.item-2 {
+    border: 1px solid blue;
+    justify-self:start;
+    align-self: center;
+}
+div > .item-1 {
+    justify-self: end;
+    align-self: center;
+}
