@@ -73,6 +73,9 @@ h1 {
     text-decoration: none;
     color: inherit;
 }
+.welcome-container, .label {
+    color: var(--secondary-color);
+}
 .content-header-section {
     display: flex;
     justify-content: center;
@@ -135,6 +138,7 @@ article img {
     }
 
 }
+
 
 
 
