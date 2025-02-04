@@ -85,13 +85,15 @@ h1 {
     
 }
 
- .offer-section {
+ .offer-container {
     border: 1px solid lightgrey;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid: 20px;
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    font-family: 'Work Sans';
+    
+    
+    
 
  }
 span {
@@ -102,5 +104,14 @@ span {
 .text,
 .month {
     color: #212529c0;
+    font-size: 1rem;
+}
+button {
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 3rem;
+    border-radius: 10px;
+    letter-spacing: 3px;
     font-size: 1rem;
 }
