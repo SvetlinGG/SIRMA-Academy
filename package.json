@@ -1,0 +1,15 @@
+{
+  "name": "sirma-academy",
+  "version": "1.0.0",
+  "description": "HTML/CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^6.0.11"
+  }
+}
