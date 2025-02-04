@@ -10,7 +10,7 @@
     line-height: 125%;
 }
 body {
-
+    margin: auto;
 }
 .logo {
     font-size: 40px; 
@@ -81,17 +81,17 @@ h1 {
     margin: 16px 0;
 }
 .social-media {
-    
-    
+    font-size: 1.5rem;
+    letter-spacing: 10px;
 }
 
  .offer-container {
-    border: 1px solid lightgrey;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1 fr);
     column-gap: 30px;
     font-family: 'Work Sans';
-    
+    padding-bottom: 80px;
     
     
 
@@ -102,9 +102,12 @@ span {
 
 }
 .text,
-.month {
+.month,
+.program {
     color: #212529c0;
     font-size: 1rem;
+    text-align: center;
+    padding-bottom: 10px;
 }
 button {
     background-color: black;
@@ -114,4 +117,27 @@ button {
     border-radius: 10px;
     letter-spacing: 3px;
     font-size: 1rem;
+    margin-left: 5rem;
+}
+.price {
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: bold;
+}
+.list {
+    margin-left: 40px;
+    padding-bottom: 20px;
+    color: rgb(90, 86, 86);
+    font-weight: 20;
+    padding-bottom: 10px;
+}
+.basic,
+.plus,
+.pro {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px 5px lightgray;
+    display: grid;
+    padding: 10px;
+    
 }
