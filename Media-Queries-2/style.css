@@ -81,11 +81,26 @@ h1 {
     margin: 16px 0;
 }
 .social-media {
-    font-weight: 240px;
+    
     
 }
-.offer-section {
-    width: 100%;
+
+ .offer-section {
+    border: 1px solid lightgrey;
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid: 20px;
+    justify-items: center;
+    align-items: center;
+
+ }
+span {
+    color: var(--primary-color);
+    padding-right: 10px;
+
+}
+.text,
+.month {
+    color: #212529c0;
+    font-size: 1rem;
 }
