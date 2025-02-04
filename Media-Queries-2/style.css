@@ -13,7 +13,8 @@ body {
     margin: auto;
 }
 .logo {
-    font-size: 40px; 
+    font-weight: bold;
+    font-size: 50px; 
     
 }
 .site-content {
@@ -33,10 +34,7 @@ body {
     align-items: center;
     color: var(--secondary-color);
 }
-.sub-heading {
-    font-size: 1.25rem;
-    line-height: 125%;
-}
+
 .nav-container {
     width: 390px;
 }
@@ -50,9 +48,7 @@ body {
     text-decoration: none;
 }
 
-.logo-container {
-display: flex;
-}
+
 .content-header-section {
     display: flex;
     justify-content: center;
@@ -69,6 +65,8 @@ display: flex;
     font-weight: bold;
 }
 .sub-heading {
+    justify-items: center;
+    align-items: center;
     font-size: 1.25rem;
     line-height: 125%;
     
