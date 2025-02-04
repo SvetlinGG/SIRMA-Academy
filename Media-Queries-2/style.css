@@ -144,26 +144,28 @@ button {
 .components {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 70px 70px;
     row-gap: 2px;
-    column-gap: 2px;
+    column-gap: 10px;
     
 }
 .item-1 {
-    border: 1px solid red;
     grid-column-start: 1;
     grid-column-end: 2;
     justify-items: end;
     align-items: end;
+    font-size: 40px;
+    font-weight:bolder;
     
     
 }
 .item-2 {
-    border: 1px solid blue;
     justify-self:start;
     align-self: center;
+    color: lightslategray;
 }
 div > .item-1 {
     justify-self: end;
     align-self: center;
+    margin-left: 90px;
 }
