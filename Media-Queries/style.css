@@ -74,6 +74,10 @@ h1 {
 .logo {
     font-size: 2.5rem;
 }
+.burger-menu {
+    display: none;
+    
+}
 .logo-container {
     display: flex;
     width: 187px;
@@ -152,6 +156,10 @@ article img {
     .header-section-container nav {
         display: none;
     }
+    
+    .burger-menu {
+        display: inline;
+    }
     .logo-container {
         width: 130px;
 
@@ -162,6 +170,7 @@ article img {
     }
     .logo {
         font-size: 1.9rem;
+        color: var(--secondary-color);
     }
     .portfolio-section {
         grid-template-columns: 1fr;
