@@ -76,6 +76,8 @@ h1 {
 }
 .logo-container {
     display: flex;
+    width: 187px;
+    justify-content: space-between;
 }
 .nav-container {
     width: 390px;
