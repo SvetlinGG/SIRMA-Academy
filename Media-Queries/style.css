@@ -5,6 +5,8 @@
     --primary-color-75: #74c69dc0;
     --secondary-color-100: var(--secondary-color);
     --secondary-color-75: #FFFFFFc0;
+    --dark-color: #212529;
+    --dark-color-100: var(--dark-color);
     font-family: 'Work Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 125%;
@@ -37,6 +39,10 @@ h1 {
 .sub-heading {
     font-size: 1.25rem;
     line-height: 125%;
+}
+.primary-button {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 .header-section,
@@ -73,8 +79,14 @@ h1 {
     text-decoration: none;
     color: inherit;
 }
+.welcome-container {
+    width: 415px;
+}
 .welcome-container, .label {
     color: var(--secondary-color);
+}
+.welcome-container p {
+    color: var(--secondary-color-75);
 }
 .content-header-section {
     display: flex;
