@@ -40,9 +40,16 @@ h1 {
     font-size: 1.25rem;
     line-height: 125%;
 }
+.secondary-button {
+    background-color: #212529;
+    padding: 13px 30px 10px;
+    color: #FFF;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 0;
+}
 .primary-button {
-    background-color: var(--secondary-color);
-    color: var(--dark-color);
+    
 }
 
 .header-section,
@@ -104,9 +111,14 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: 570fr 555fr;
-    margin-bottom: 100px;
+    margin-bottom: 64px;
     gap: 55px;
 }
+.more-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 .social-media {
     color: white;
     border: 1px solid black;
