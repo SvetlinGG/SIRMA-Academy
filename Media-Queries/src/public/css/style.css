@@ -1,56 +1,6 @@
-:root {
-    --primary-color: #74C69D;
-    --secondary-color: #FFF;
-    --primary-color-100: var(--primary-color);
-    --primary-color-75: #74c69dc0;
-    --secondary-color-100: var(--secondary-color);
-    --secondary-color-75: #FFFFFFc0;
-    --dark-color: #212529;
-    --dark-color-100: var(--dark-color);
-    font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 125%;
-}
 
-body {
-    margin: 0;
 
-}
-.site-content {
-   width: 1180px; 
-   margin: auto;
-}
-h1 {
-    font-family: 'Crimson Text';
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 125%;
-    margin: 16px 0;
-    
-}
-.label {
-    letter-spacing: 5px;
-    font-weight: bold;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    
 
-}
-.sub-heading {
-    font-size: 1.25rem;
-    line-height: 125%;
-}
-.secondary-button {
-    background-color: #212529;
-    padding: 13px 30px 10px;
-    color: #FFF;
-    font-family: inherit;
-    border-radius: 5px;
-    border: 0;
-}
-.primary-button {
-    
-}
 
 .header-section,
 .footer-section {
