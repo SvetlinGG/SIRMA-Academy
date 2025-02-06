@@ -23,6 +23,7 @@
 
 .logo {
     font-size: 2.5rem;
+    color: white;
 }
 .burger-menu {
     display: none;
@@ -44,16 +45,21 @@
 }
 .nav-container a {
     text-decoration: none;
-    color: inherit;
+    color: white;
+}
+.welcome-section {
+    padding: 40px 0 40px;
 }
 .welcome-container {
     width: 415px;
+
 }
 .welcome-container, .label {
     color: var(--secondary-color);
 }
 .welcome-container p {
     color: var(--secondary-color-75);
+    margin-bottom: 25px;
 }
 .content-header-section {
     display: flex;
