@@ -67,3 +67,7 @@ h1 {
     background-color: var(--dark-color);
     color: white;
 }
+
+article img {
+    width: 100%;
+}

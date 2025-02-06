@@ -1,6 +1,6 @@
 
 
-
+@import url(./site.css);
 
 .header-section,
 .footer-section {
@@ -80,9 +80,7 @@
     color: white;
     border: 1px solid black;
 }
-article img {
-    width: 100%;
-}
+
 
 @media (max-width: 1200px){
     .site-content {
