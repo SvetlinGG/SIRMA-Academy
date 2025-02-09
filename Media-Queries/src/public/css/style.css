@@ -117,12 +117,13 @@
 }
 .talents-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);;
     gap: 47px;
+    border: 1px solid red;
 }
 .talents-list-item {
     box-shadow: 3px 4px 12px 1px var(--dark-color-25);
-    padding: 20px 40px;
+    padding: 20px 25px;
     border-radius: 5px;
 }
 
@@ -130,6 +131,10 @@
     width: 175px;
     text-align: center;
     margin: 0 13px;
+}
+.talents-image-wrapper img {
+    width: unset;    
+    margin: 13px;
 }
 
 .talents-section footer {
