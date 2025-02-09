@@ -81,7 +81,17 @@
     display: flex;
     gap: 68px;
 }
+/* Info Section */
 
+.info-section {
+
+}
+
+.info-section-content p {
+    color: var(--dark-color-75);
+}
+
+/* Portfolio Section */
 .portfolio-section {
     width: 100%;
     display: grid;
