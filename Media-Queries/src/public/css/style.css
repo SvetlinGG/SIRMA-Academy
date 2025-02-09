@@ -84,11 +84,29 @@
 /* Info Section */
 
 .info-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    align-items: center;
+}
 
+.info-section-content {
+    width: 470px;
+    
 }
 
 .info-section-content p {
-    color: var(--dark-color-75);
+    color: var(--dark-color-50);
+    margin-bottom: 16px;
+}
+
+.mission-info-section {
+    margin-bottom: 75px;
+}
+
+.solution-info-section {
+    flex-direction: row-reverse;
+    margin-bottom: 110px;
 }
 
 /* Portfolio Section */
