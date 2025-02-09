@@ -108,6 +108,34 @@
     flex-direction: row-reverse;
     margin-bottom: 110px;
 }
+.talents-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 54px;
+    gap: 46px;
+}
+.talents-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 47px;
+}
+.talents-list-item {
+    box-shadow: 3px 4px 12px 1px var(--dark-color-25);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.talents-image-wrapper {
+    width: 175px;
+    text-align: center;
+    margin: 0 13px;
+}
+
+.talents-section footer {
+    color: var(--dark-color-75);
+    text-transform: uppercase;
+}
 
 /* Portfolio Section */
 .portfolio-section {
