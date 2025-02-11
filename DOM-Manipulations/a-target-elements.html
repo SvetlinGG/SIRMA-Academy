@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Elements</title>
+</head>
+<body>
+    <header>
+        <h1>DOM Operations</h1>
+        <h2>Target Elements</h2>
+
+        <p id="lorem-text">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Ut, officia! 
+            Aspernatur esse rerum accusantium quos beatae 
+            tempora ipsa non consequuntur?</p>
+        <p id="secondary-text"><strong id="strong-text ">Lorem ipsum dolor</strong> sit amet consectetur adipisicing elit. Quaerat, quos?</p>
+        
+        <button id="submit">Submit</button>
+    </header>
+
+    <script>
+        // Get element by id
+        const loremTextElements = document.getElementById('lorem-text');
+        console.log(loremTextElements.textContent);
+
+        // Update DOM after two seconds
+        setTimeout(() => {
+            loremTextElements.textContent = 'Updated lorem text!'
+        }, 2000)
+
+        // Get nested element
+        const secondaryText = document.getElementById('secondary-text');
+        const strongTextElement = secondaryText.getElementById('strong-text');
+        console.log(strongTextElement.textContent);
+
+        // Get elements by class name
+        
+        
+    </script>
+</body>
+</html>
