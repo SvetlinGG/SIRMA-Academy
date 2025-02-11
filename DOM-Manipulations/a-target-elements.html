@@ -10,15 +10,26 @@
         <h1>DOM Operations</h1>
         <h2>Target Elements</h2>
 
-        <p id="lorem-text">Lorem ipsum dolor sit amet 
+        
+        
+        
+    </header>
+    <main id="main-content">
+        <p id="lorem-text" class="typography">Lorem ipsum dolor sit amet 
             consectetur adipisicing elit. Ut, officia! 
             Aspernatur esse rerum accusantium quos beatae 
             tempora ipsa non consequuntur?</p>
-        <p id="secondary-text"><strong id="strong-text ">Lorem ipsum dolor</strong> sit amet consectetur adipisicing elit. Quaerat, quos?</p>
-        
-        <button id="submit">Submit</button>
-    </header>
-
+        <p id="secondary-text" class="typography"><strong id="strong-text ">Lorem 
+            ipsum dolor</strong> sit amet consectetur adipisicing elit. Quaerat,
+             quos?</p>
+    </main>
+    <p>Additional</p>
+    <input type="text" name="username" value="">
+    <input type="text" name="username" value="username">
+    <input type="text" name="username" value="name">
+    
+    <button id="submit" class="typography">Submit</button>
+    
     <script>
         // Get element by id
         const loremTextElements = document.getElementById('lorem-text');
@@ -35,6 +46,26 @@
         console.log(strongTextElement.textContent);
 
         // Get elements by class name
+        const typographyElements = document.getElementsByClassName('typography');
+        console.log(typographyElements);
+        
+        // Get elements by tag name
+        const paragraphElement = document.getElementsByTagName('p');
+        console.log(paragraphElement);
+
+        // Select elements in subtree
+        const mainElement = document.getElementById('main-content');
+        console.log(mainElement.getElementsByTagName('p'));
+        
+        // Query Selector
+
+        const specificInput = document.querySelector('[name=username]');
+        specificInput.value = 'Svetlin Garabedyan';
+
+        // Query Selector All - get all elements that match the css selector
+        const inputElements = document.querySelectorAll('[name=username]');
+        console.log(inputElements);
+
         
         
     </script>
