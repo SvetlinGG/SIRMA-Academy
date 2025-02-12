@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1>DOM Operations</h1>
+        <h1 class="main-header">DOM Operations</h1>
         <h2>Target Elements</h2>
 
         
@@ -24,7 +24,7 @@
              quos?</p>
     </main>
     <p>Additional</p>
-    <input type="text" name="username" value="">
+    <input type="text" name="username" value="name">
     <input type="text" name="username" value="username">
     <input type="text" name="username" value="name">
     
@@ -42,8 +42,8 @@
 
         // Get nested element
         const secondaryText = document.getElementById('secondary-text');
-        const strongTextElement = secondaryText.getElementById('strong-text');
-        console.log(strongTextElement.textContent);
+        //const strongTextElement = secondaryText.getElementById('strong-text');
+        //console.log(strongTextElement.textContent);
 
         // Get elements by class name
         const typographyElements = document.getElementsByClassName('typography');
@@ -66,7 +66,12 @@
         const inputElements = document.querySelectorAll('[name=username]');
         console.log(inputElements);
 
-        
+        // Get parent element
+
+        const mainHeaderElement = document.querySelector('.main-header');
+
+    
+
         
     </script>
 </body>
